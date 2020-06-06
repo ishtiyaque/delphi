@@ -2,7 +2,7 @@ use rand::SeedableRng;
 use rand_chacha::ChaChaRng;
 
 use algebra::{
-    fields::near_mersenne_32::*, BigInteger as _, BigInteger64 as BigInteger, Field, PrimeField,
+     BigInteger as _, BigInteger64 as BigInteger, Field, PrimeField,
     UniformRandom,
 };
 use std::ops::{AddAssign, MulAssign, Neg, SubAssign};

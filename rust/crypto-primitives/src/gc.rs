@@ -232,7 +232,7 @@ mod test {
     }
 
     #[test]
-    pub fn test_relu() {
+    pub(crate) fn test_relu() {
         let mut rng = thread_rng();
         let n = 42;
         let q = 2;
